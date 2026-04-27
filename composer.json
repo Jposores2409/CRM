@@ -11,6 +11,7 @@
         "laravel/tinker": "^3.0",
         "livewire/livewire": "^4.2"
     },
+    
     "require-dev": {
         "fakerphp/faker": "^1.23",
         "laravel-lang/common": "^6.8",
@@ -75,6 +76,9 @@
         }
     },
     "config": {
+        "plataform": {
+            "php": "8.3.30"
+        },
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
